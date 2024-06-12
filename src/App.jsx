@@ -7,7 +7,7 @@ function App() {
   const darkMode = useSelector((state) => state.darkMode.darkMode);
   return (
     <>
-      <div className={`h-screen flex justify-center items-center ${darkMode ? ' bg-slate-900git' : 'bg-slate-50'} transition-all duration-.4s`}>
+      <div className={`h-screen flex justify-center items-center ${darkMode ? ' bg-slate-900' : 'bg-slate-50'} transition-all duration-.4s`}>
         <Card />
       </div>
     </>
